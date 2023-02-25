@@ -1,4 +1,4 @@
-# eJPT Notes
+# eJPTv2 Notes
 ## Intro
 Notes for ejptv2 certification
 
