@@ -2,16 +2,16 @@
 
 #### System information:
 ````bash
-#Manual
+# Manual
 hostname
 systeminfo
 
-#Meterpreter
+# Meterpreter
 sysinfo
 ````
 #### Users & Groups:
 ````bash
-#Manual
+# Manual
 whoami
 whoami /priv
 net users
@@ -19,7 +19,7 @@ net user administrator
 net localgroup
 net localgroup administrators
 
-#Meterpreter
+# Meterpreter
 getuid
 getprivs
 use post/windows/gather/enum_logged_on_users
@@ -47,7 +47,7 @@ schtasks /query /fo LIST /v
 ````
 #### Automating Enumeration
 ````bash
-#Metasploit
+# Metasploit
 post/windows/gather/win_privs
 post/windows/gather/enum_logged_on_users
 post/windows/gather/checkvm
