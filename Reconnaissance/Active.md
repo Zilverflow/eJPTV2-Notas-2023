@@ -24,3 +24,24 @@ nmap -Pn -F 10.0.2.10
 - -oN = export to nmap.
 - -oX archivo.xml= export to xml
 ````
+# Mapping a Network
+#### ARP-SCAN
+````bash
+sudo arp-scan -I tun0 -g 10.0.2.0/24
+````
+#### FPING:
+````bash
+fping -I tun0 -g 10.0.2.0/24 -a 2>/dev/null
+````
+#### NMAP:
+````bash
+nmap -sn 10.0.2.0/24 
+````
+#### ZENMAP
+#### Wireshark
+# Port Scanning Tools
+* nmap
+* Zenmap 
+* Masscan
+* Rutscan
+* Autorecon
