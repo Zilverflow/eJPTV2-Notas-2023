@@ -25,10 +25,10 @@ Notes for ejptv2 certification
 - [Post Explotation](/Post%20Exploitation/)
     - [Linux](/Post%20Exploitation/Linux/)
         - [Enumeration](/Post%20Exploitation/Linux/Enumeration.md)
+        - [Privilege Escalation](/Post%20Exploitation/Linux/Privilege%20Escalation.md)
     - [Windows](/Post%20Exploitation/Windows/)
         - [Enumeration](/Post%20Exploitation/Windows/Enumeration.md)
+        - [Privilege Escalation](/Post%20Exploitation/Windows/Privilege%20Escalation.md)
     - [Pivoting & Port Forwarding](/Post%20Exploitation/Pivoting%20%26%20Port%20forwarding.md)
-
-
 ---    
 
