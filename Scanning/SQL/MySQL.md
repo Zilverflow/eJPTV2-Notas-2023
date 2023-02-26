@@ -1,4 +1,4 @@
-# Enumeration
+# MySQL Enumeration & Brute force
 #### Version
 ````bash
 # Nmap
